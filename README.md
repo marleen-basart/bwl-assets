@@ -20,22 +20,26 @@ Publieke afbeeldingenmap voor BitesWeLove. Hier staan logo's, productfoto's, sfe
 Elke afbeelding krijgt een vaste publieke URL volgens dit patroon:
 
 ```
-https://marleen-basart.github.io/bwl-assets/<map>/<bestandsnaam>
+https://biteswelove.github.io/bwl-assets/<map>/<bestandsnaam>
 ```
 
-Voorbeelden:
+Voorbeelden (deze bestaan echt en werken):
 
 ```
-https://marleen-basart.github.io/bwl-assets/logos/bwl-mark.svg
-https://marleen-basart.github.io/bwl-assets/products/chewy-oat-bar.png
-https://marleen-basart.github.io/bwl-assets/lifestyle/snack-moment.jpg
+https://biteswelove.github.io/bwl-assets/logos/bwl-logo.png
+https://biteswelove.github.io/bwl-assets/logos/bwl-logo-1x1-transparant.png
+https://biteswelove.github.io/bwl-assets/products/chewy-oat-bars/multipacks/chewy-oat-bars-vanilla-multipack-01.jpg
 ```
+
+> **Belangrijk:** het domein is `biteswelove.github.io` (de BitesWeLove-organisatie), **niet** `marleen-basart.github.io`. De oude marleen-URL werkt niet meer sinds de repo naar de organisatie is verhuisd.
 
 Deze URL's werken in:
 - HTML / websites (`<img src="...">`)
 - Presentaties (BWL deck-template)
 - Markdown-documenten (`![alt](url)`)
 - Mails met inline afbeeldingen
+
+> **Tip:** weet je de exacte bestandsnaam niet? Blader door de mappen op github.com/BitesWeLove/bwl-assets, of kijk op de index: https://biteswelove.github.io/bwl-assets/ . Verzin geen bestandsnamen — gebruik alleen bestanden die er echt staan, anders laadt de afbeelding niet.
 
 ## Hoe je een nieuwe afbeelding toevoegt
 
@@ -51,7 +55,7 @@ Klaar. Na ~1 minuut is hij beschikbaar op het URL hierboven.
 
 - Lowercase, geen spaties: gebruik `-` tussen woorden
 - Beschrijvend: `chewy-oat-bar-matcha.png` ✓, niet `IMG_2934.jpg` ✗
-- Versies: voeg een datum toe als je een nieuwere variant hebt: `bwl-mark-v2-2026.svg`
+- Versies: voeg een datum toe als je een nieuwere variant hebt: `bwl-logo-v2-2026.png`
 - Bestandsformaten:
   - **Logo's**: `.svg` (schaalbaar) of `.png` met transparante achtergrond
   - **Foto's**: `.jpg` (klein, voor web) of `.png` (als je transparantie nodig hebt)
